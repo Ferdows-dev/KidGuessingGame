@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instruction : Please insert number then submit button"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_purple"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:id="@+id/userET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_gravity="center"
+        android:text="Submit"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
